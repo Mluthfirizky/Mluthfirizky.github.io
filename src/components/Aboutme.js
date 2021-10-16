@@ -4,6 +4,7 @@ import React, { useEffect, useState } from "react"
 import {Link as ScrollLink} from 'react-scroll';
 
 export default function aboutme() {
+    
     return (
         <div className="min-h-screen justify-center items-center flex flex-col">
             <h1 className="font-dosis font-bold text-5xl mb-3">About Me</h1>

@@ -1,8 +1,10 @@
 import React from 'react';
 import Header from './components/Header';
 import Navigation from './components/Navigation';
-import Body1 from './components/Body1';
-import Aboutme from './components/Aboutme';
+import Use from './components/Use';
+import Aboutme from './components/Aboutme'
+import Skills from './components/Skills';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -10,7 +12,9 @@ function App() {
       <Navigation/>
       <Header/>
       <Aboutme/>
-      <Body1/>
+      <Use />
+      <Skills/>
+      <Footer/>
     </div>
   );
 }

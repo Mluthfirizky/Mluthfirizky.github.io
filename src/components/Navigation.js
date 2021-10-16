@@ -13,7 +13,6 @@ export default function navigation() {
         }}>
             <div className = "flex items-center justify-between w-10/12 mx-auto py-3 text-white font-dosis">
                 <h1 className="md:text-3xl text-2xl font-bold">{content.nav.logo} <span className="md:w-3 md:h-3 w-2 h-2 bg-red-500 rounded-full inline-block"></span></h1>
-                
                 <div className="invisible md:visible">
                     {content.nav.links.map((link,index)=>(
                         
