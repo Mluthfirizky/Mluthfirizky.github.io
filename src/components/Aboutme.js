@@ -6,7 +6,7 @@ import {Link as ScrollLink} from 'react-scroll';
 export default function aboutme() {
     
     return (
-        <div className="min-h-screen justify-center items-center flex flex-col">
+        <div className="min-h-screen justify-center items-center flex flex-col" id="Aboutme">
             <h1 className="font-dosis font-bold text-5xl mb-3">About Me</h1>
             <div className="md:flex w-10/12 mx-auto font-dosis items-center flex-row-reverse">
                         <div className="w-8/12 md:w-6/12 mx-auto p-6 shadow-2xl rounded-full mt-3 mb-6">
@@ -19,8 +19,8 @@ export default function aboutme() {
                         <p className="text-2xl mt-5 font-semibold md:w-10/12">
                             {content.AboutMe.text}
                         </p>
-                        <ScrollLink to={"Body1"} smooth={true}>
-                            <button className=" transform transition ease-in-out duration-2000 animate-float font-semibold text-white bg-indigo-500 px-10 py-3 text-xl uppercase mt-10 rounded-xl">
+                        <ScrollLink to={"Footer"} smooth={true}>
+                            <button className=" transform motion-safe:hover:scale-110 animate-pulse duration-2000 font-semibold text-white bg-indigo-500 px-10 py-3 text-xl uppercase mt-10 rounded-xl">
                                 Contact Me
                             </button>
                         </ScrollLink>

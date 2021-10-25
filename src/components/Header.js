@@ -14,7 +14,7 @@ export default function Header() {
     },[])
 
     return (
-        <div className="min-h-screen flex items-center justify-center text-white"
+        <div className="min-h-screen flex items-center justify-center text-white" id="Home"
         style={{
             background:'#000'
         }}>
@@ -36,7 +36,7 @@ export default function Header() {
                     loop={Infinity}
                     className="inline-block "/>
                 </h1>
-                <ScrollLink to={"Body1"} smooth={true}>
+                <ScrollLink to={"Aboutme"} smooth={true}>
                 <button className={`${animated ? "" : "translate-y-10 opacity-0" } transform transition ease-in-out duration-2000 animate-float bg-indigo-500 px-10 py-3 text-xl font-semibold uppercase mt-10 rounded-lg`}>
                     {content.header.btnText}
                 </button>

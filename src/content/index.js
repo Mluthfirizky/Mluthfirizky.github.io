@@ -3,8 +3,8 @@ export default {
     logo: 'M luthfi',
     links: [
       { text: 'Profile', to: 'Aboutme' },
-      { text: 'About', to: 'Body1' },
-      { text: 'Contact', to: 'Contact' },
+      { text: 'Skills', to: 'Skills' },
+      { text: 'Contact', to: 'Footer' },
     ],
   },
   header: {
@@ -54,4 +54,57 @@ export default {
   
     btnText: 'See More',
   },
+  footer: {
+    title: ["CONTACT", "EXPLORE", "LOCATION"],
+    loc: "Jl. Raya Dayeuh, Sukanegara, Kec. Jonggol, Bogor, Jawa Barat ",
+    logo: [
+      {
+        img: process.env.PUBLIC_URL + '/assets/in.png',
+        alt: 'mongodb',
+        to: 'https://www.linkedin.com/in/luthfi-ginting-b3b3a7218/'
+      },
+      {
+        img: process.env.PUBLIC_URL + '/assets/ins.png',
+        alt: 'react',
+        to: 'https://www.instagram.com/luthvv/'
+      },
+      {
+        img: process.env.PUBLIC_URL + '/assets/whats.png',
+        alt: 'express',
+        to: 'Skills'
+      },
+      {
+        img: process.env.PUBLIC_URL + '/assets/em.png',
+        alt: 'express',
+      },
+      {
+        img: process.env.PUBLIC_URL + '/assets/drib.png',
+        alt: 'express',
+        to: 'https://dribbble.com/Mluthvv',
+      },
+      
+    ],
+    explore: [
+      {
+        text: 'Home',
+        to: 'Home'
+      },
+      {
+        
+        text:'About',
+        to: 'Aboutme'
+      },
+      {
+        
+        text:'Skills',
+        to: 'Skills'
+      },
+      {
+        text:'What i use',
+        to: 'Use',
+      },
+    ],
+    
+    desc: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only`,
+  }
 };

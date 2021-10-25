@@ -848,6 +848,7 @@ module.exports = {
     transitionDuration: ['responsive'],
     transitionDelay: ['responsive'],
     animation: ['responsive'],
+    animation: ['motion-safe'],
   },
   corePlugins: {},
   plugins: [],
