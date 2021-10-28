@@ -66,7 +66,7 @@ export default {
       {
         img: process.env.PUBLIC_URL + '/assets/ins.png',
         alt: 'react',
-        to: 'https://www.instagram.com/luthvv/'
+        // to: 'https://www.instagram.com/luthvv/'
       },
       {
         img: process.env.PUBLIC_URL + '/assets/whats.png',

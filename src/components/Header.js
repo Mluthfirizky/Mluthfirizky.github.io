@@ -14,9 +14,10 @@ export default function Header() {
     },[])
 
     return (
-        <div className="min-h-screen flex items-center justify-center text-white" id="Home"
+        <div className="min-h-screen flex items-center pb-10 justify-center text-white" id="Home"
         style={{
             background:'#000'
+            
         }}>
             <div className="w-10/12 mx-auto flex flex-col items-center justify-between md:flex-row-reverse"> 
             <div className="md:w-3/6 w-full">
@@ -25,7 +26,7 @@ export default function Header() {
                 effect="blur"/>
             </div>
             <div className="font-dosis text-center md:text-left">
-                <h2 className={`${animated ? "" : "translate-y-10 opacity-0" }  transform transition ease-in-out duration-2000 text-white text-6xl font-bold text-white md:text-5xl`}>
+                <h2 className={`${animated ? "" : "translate-y-10 opacity-0" }  transform transition ease-in-out duration-2000 text-white text-5xl font-bold text-white md:text-6xl`}>
                     {content.header.text[0]}
                     <br />
                     {content.header.text[1]}
@@ -37,7 +38,7 @@ export default function Header() {
                     className="inline-block "/>
                 </h1>
                 <ScrollLink to={"Aboutme"} smooth={true}>
-                <button className={`${animated ? "" : "translate-y-10 opacity-0" } transform transition ease-in-out duration-2000 animate-float bg-indigo-500 px-10 py-3 text-xl font-semibold uppercase mt-10 rounded-lg`}>
+                <button className={`${animated ? "" : "translate-y-10 opacity-0" } transform transition ease-in-out hover:bg-red-500 hover:border-2 animate-float bg-indigo-500 px-10 py-3 text-xl font-semibold uppercase mt-10 rounded-lg`}>
                     {content.header.btnText}
                 </button>
                 </ScrollLink>

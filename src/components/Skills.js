@@ -14,7 +14,7 @@ export default function Skills ({width, percent}) {
 
     return (
         <div className="min-h-screen flex flex-col  justify-center mx-auto w-10/12 "id="Skills">
-            <div className="font-dosis">
+            <div className="font-dosis py-8 md:py-0">
                 <div className="text-center">
                     <h1 className={`${animated ? "" : "translate-y-10 opacity-0" }  transform transition ease-out-in duration-2000 text-5xl font-dosis font-bold`}>My Skills</h1>
                     <h2 className={`${animated ? "" : "translate-y-10 opacity-0" }  transform transition ease-in-out duration-2000 text-2xl font-semibold`}>What i can do</h2>

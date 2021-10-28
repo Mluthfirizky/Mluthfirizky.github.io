@@ -47,7 +47,7 @@ export default function Footer() {
                 
             </div>
                     <div className="text-center ">
-                   <p  className="items-end text-gray-600 md:mt-4 text-xs md:text-base"> © 2018 M luthfi </p>
+                   <p  className="items-end text-gray-600 md:mt-2 text-xs md:text-base"> © 2018 M luthfi </p>
                     </div>
                     </div>
                     <div>
